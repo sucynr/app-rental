@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    
+        * {
+            box-sizing: border-box 10px;
+        }
+
+        .row {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 16px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2><b><center>DETAIL MOBIL AGYA</h2></b></center>
+    <div class="row">
+        
+        <div class="column">
+            <table>
+                <tr>
+                    <img src="pink.webp" width="80%">
+            </table>
+        </div>
+        <div class="column">
+            <table>
+                <tr>
+                    <th>NAMA MOBIL:</th>
+                    <td>AYLA</td>
+                </tr>
+                <tr>
+                    <th>JENIS MOBIL:</th>
+                    <td>ASTRA DAIHATSYU</td>
+                </tr>
+                <tr>
+                    <th>TYPE:</th>
+                    <td>AYLA 1.OM</td>
+                </tr>
+                <tr>
+                    <th>HARGA SEWA:</th>
+                    <td>1JT/HARI</td>
+                </tr>
+                <div class="w3-section">
+                    <a href="sewa.html"><button class="w3-button w3-green">SEWA</button></a>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
